@@ -5,7 +5,7 @@ Buatlah sebuah folder dengan nama "**blogger**" pada folder htdocs. Jika menggun
 Jika folder yang dibuat dengan nama selain "**blogger**" maka Anda terlebih dahulu mengganti script di "system/db.php" menjadi :
 
 ```
-&lt;?php
+<?php
 
 date_default_timezone_set('Asia/Makassar');
 
@@ -31,7 +31,7 @@ while ($data = mysqli_fetch_array($query_home)) {
 
 }
 
-?&gt;
+?>
 
 ```
 
