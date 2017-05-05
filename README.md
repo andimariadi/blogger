@@ -31,8 +31,8 @@ Untuk database pada CMS ini menggunakan nama `"db_blog"` dan import **db_blog.sq
 
 Untuk masuk ke dalam panel Admin bisa langsung ke alamat <http://localhost/blogger/admin> dan user gunakan :
 
-`usernama : **Andi**`
+`usernama : Andi`
 
-`password : **Admin**`
+`password : Admin`
 
 kreasikan script sobat hingga menjadi lebih menarik dan patut di gunakan. Powered by [Pemula Belajar](http://pemulabelajar.com "Tutorial Belajar Untuk Pemula")
