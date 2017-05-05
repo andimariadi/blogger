@@ -5,7 +5,7 @@ Buatlah sebuah folder dengan nama "**blogger**" pada folder htdocs. Jika menggun
 Jika folder yang dibuat dengan nama selain "**blogger**" maka Anda terlebih dahulu mengganti script di "system/db.php" menjadi :
 
 `
-<?php
+&gt;?php
 date_default_timezone_set('Asia/Makassar');
 //buat dulu koneksi kedatabase
 
@@ -19,7 +19,7 @@ while ($data = mysqli_fetch_array($query_home)) {
 	$title_home = $data[1];
     $home = 'http://localhost/NAMA FOLDER YANG DIGUNAKAN/';
 }
-?>
+?&lt;
 `
 
 ## Database
