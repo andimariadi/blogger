@@ -2,6 +2,12 @@
 
 Buatlah sebuah folder dengan nama "**blogger**" pada folder htdocs. Jika menggunakan selain xampp bisa disesuaikan.
 
+## Permalink
+
+Untuk membuat permalink bekerja silahkan ubah `htaccess` menjadi `.htaccess` (pakai titik depan). saat upload di github file dengan nama .htaccess tidak berhasil, karena itu di siasati dengan mengubah nama.
+
+## Mengubah Nama Folder
+
 Jika folder yang dibuat dengan nama selain "**blogger**" maka Anda terlebih dahulu mengganti script di "system/db.php" menjadi :
 
 ```
