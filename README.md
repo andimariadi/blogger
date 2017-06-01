@@ -4,7 +4,7 @@ Buatlah sebuah folder dengan nama "**blogger**" pada folder htdocs. Jika menggun
 
 ## Permalink
 
-Untuk membuat permalink bekerja silahkan ubah `htaccess` menjadi `.htaccess` (pakai titik depan tanpa format php). saat upload di github file dengan nama .htaccess tidak berhasil, karena itu di siasati dengan mengubah nama.
+Permalink dapat diubah pada file `.htacess`. Untuk membuat permalink baru dapat membaca artikel kami di [Cara Manipulasi URL Dengan Htaccess Rewrite](http://pemulabelajar.com/2016/06/cara-manipulasi-url-dengan-htaccess-rewrite.html "Cara Manipulasi URL Dengan Htaccess Rewrite")
 
 ## Mengubah Nama Folder
 
