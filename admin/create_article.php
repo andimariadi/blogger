@@ -19,7 +19,7 @@ if (isset($_POST['save'])) {
 
 
       if ($query) {
-        echo '<script>alert(\'Berhasil membuat artikel " <b>'.$judul.' "\');history.go(-1);</script>';
+        echo '<script>alert(\'Berhasil membuat artikel "'.$judul.' "\');history.go(-1);</script>';
       }
       else {
         echo '<script>alert(\'Gagal membuat artikel dengan judul " <b>'.$judul.'</b> "\');history.go(-1);</script>';
@@ -31,7 +31,7 @@ if (isset($_POST['save'])) {
             $fileName = $_FILES['foto']['name']; //nama file
             $fileSize = $_FILES['foto']['size']; //ukuran file
             $fileError = $_FILES['foto']['error']; //
-            $uploaddir= 'img/';
+            $uploaddir= '../img/';
             $lokasi=$uploaddir.$fileName;
             if($fileSize > 0 || $fileError == 0){ //Check jika error
               $move = move_uploaded_file($_FILES['foto']['tmp_name'],$lokasi); //save gambar ke folder
