@@ -49,9 +49,9 @@ echo '<section id="artikel">
     <div class="bungkus">
       <div class="arrow-down"><i class="fa fa-caret-down fa-lg"></i></div>
       <form method="post">
-        <input class="masuk" type="text" autocomplete="off" placeholder="Username .." name="username"><br/>
-        <input class="masuk" type="password" autocomplete="off" placeholder="Password .." name="password"><br/>
-        <input name="login" type="submit" class="reply">
+        <input class="masuk" type="text" autocomplete="off" placeholder="Username .." name="username" /><br/>
+        <input class="masuk" type="password" autocomplete="off" placeholder="Password .." name="password" /><br/>
+        <input name="login" type="submit" class="reply" value="Masuk" />
       </form>
     </div>';
 

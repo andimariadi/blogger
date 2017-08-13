@@ -63,7 +63,7 @@
                 //end image
                 echo '
                 <div class="judul-articles">';
-                echo '<a href="'.$home.'/'.$data[0].'/'.$link.'.html">
+                echo '<a href="'.$home.$data[0].'/'.$link.'.html">
                                 '.$data[1].'
                             </a>
                 </div><p>

@@ -10,7 +10,7 @@ $koneksi = mysqli_connect($dbhost,$dbuser,$dbpassword, $dbname);
 $query_home = mysqli_query($koneksi, 'select * from tbweb order by no ASC');
 while ($data = mysqli_fetch_array($query_home)) {
 	$title_home = $data[1];
-    $home = 'http://localhost/blogger/';
+    $home = 'http://' . $_SERVER['HTTP_HOST'] . '/blogger/';
 }
 
 
